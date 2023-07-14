@@ -7,7 +7,7 @@ print("I am " + old)
 2.input:12(12)
 3.Output:I am 12
 """
-aa = 請輸入你的智商
+aa = ("請輸入你的智商")
 print("你的智商真高~你有" + aa + "的智商")
 """
 請使用者輸入身高(公尺)h以及體重(公斤)w
@@ -18,9 +18,9 @@ EX:
 請輸入體重:35.5
 你的BMI為
 """
-W = input("請輸入你的重量")
-w = float(W)
+w = input("請輸入你的重量")
+w = float(w)
 h = input("請輸入你的身高")
 h = float(h)
 bmi = w / h**2
-print("你的bmi為" + bmi)
+print("你的bmi為" + str(bmi))
