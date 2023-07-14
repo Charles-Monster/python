@@ -4,3 +4,8 @@ EX:
 請輸入python年齡:10
 python與同學年齡加起來16歲
 '''
+name = "python"
+age = int(input("請輸入你的年齡:"))
+age2 = age + 8
+print('我叫做' + name + '我今年' + str(age) + '我同學' + '今年8歲我們兩個的歲數加起來總共是' +
+      str(age + 8))
