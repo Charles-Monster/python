@@ -10,3 +10,5 @@ ex:
 12
 ....
 '''
+for i in range(3, 99, 3):
+    print(i)
