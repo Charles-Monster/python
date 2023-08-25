@@ -12,12 +12,10 @@ ex:
 '''
 import turtle
 
-turtle.forward(60)  #int or float
-turtle.left(60)  #int or float
 for i in range(6):
-    print(
-        turtle.forward(60),  #int or float
-        turtle.left(60))  #int or float
+
+    turtle.forward(60),  #int or float
+    turtle.left(60)  #int or float
 turtle.done()  # 讓視窗保持顯示
 
 for i in range(3, 100, 3):
