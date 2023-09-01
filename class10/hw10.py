@@ -6,6 +6,5 @@ import turtle
 for i in range(8):
     turtle.stamp()
     turtle.forward(100)
-    turtle.stamp()
-
-    turtle.home()
+    turtle.right(60)
+turtle.home()
