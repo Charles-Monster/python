@@ -3,8 +3,10 @@
 #import time  # 匯入time模組
 #time.sleep(1) # 延遲1秒
 import turtle
+
+turtle.penup()
 for i in range(8):
-    turtle.stamp()
     turtle.forward(100)
-    turtle.right(60)
-turtle.home()
+    turtle.stamp()
+    turtle.backward(100)
+    turtle.right(45)
