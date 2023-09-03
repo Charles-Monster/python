@@ -33,14 +33,18 @@ EX:
 '''
 作業一
 '''
-x = int(input('請輸入一個開始的正整數'))
-y = int(input('請輸入一個結束的正整數'))  #數值要比x大
-for i in range(y - x + 1):
-    a = x % 3
-    if (a == 0):
-        print(x)  # 這時候i會從10
-    x = x + 1
+# x = int(input('請輸入一個開始的正整數'))
+# y = int(input('請輸入一個結束的正整數'))  #數值要比x大
+# for i in range(y - x + 1):
+#     a = x % 3
+#     if (a == 0):
+#         print(x)  # 這時候i會從10
+#     x = x + 1
 '''
 作業二
 '''
-#str(input("請輸入要印出的箭頭大小:"))
+a = int(input("請輸入要印出的箭頭大小"))
+for i in range(1, a + 1):
+    print(' ' * (a - i) + '*' * (2 * i - 1))
+for j in range(1, a + 1):
+    print(' ' * (a - 1) + '*')
