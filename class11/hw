@@ -1,0 +1,7 @@
+x = int(input("請輸入數字"))
+a = int(1)
+for i in range(x):
+    s = x % a
+    if (s == 0):
+        print(a)
+    a = a + 1
