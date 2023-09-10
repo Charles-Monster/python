@@ -5,6 +5,7 @@
 # for i in range(5):
 #     print(i)
 #     i = i + 1
+#     i+=1
 # += =加法
 # -= =減法
 # *= =乘法
@@ -33,15 +34,16 @@
 # price = int(input('請輸入商品金額'))
 # while price != 0:
 #     Sum += price
+#     Sum=price+Sum
 #     print('目前總金額為' + str(Sum) + "元")
 #     price = int(input('請輸入商品金額'))
-a = int
-b = 1
-while a != a and = b:
-    a = int(input('請輸入要被判斷的一個數字'))
-    
-    if (a == a) or (a == b):
-        print(a)
+# a = int
+# b = 1
+# while a != a and = b:
+#     a = int(input('請輸入要被判斷的一個數字'))
+
+#     if (a == a) or (a == b):
+#         print(a)
 # x = int(input("請輸入正整數:"))
 # if x == 1:
 #     print(f"{x}不是質數")
