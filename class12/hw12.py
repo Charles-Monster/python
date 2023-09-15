@@ -16,30 +16,13 @@ EX:
 43
 47
 '''
-# a = int(input("請輸入正整數"))
-# ans = False
-# if a ==1:
-#     print("1不是質數")
-# else:
-#     for i in range(2,int(a/2+1)):
-#         if a % i ==0:
-#             ans = True
-#     if ans == True:
-#         print(str(a)+"不是質數")
-#     else:
-#         print(str(a)+"是質數")
-y = int(input('請輸入一個數字:'))
-ans = False
-if y == 1:
-    print('1不是一個質數')
-else:
-    for i in range(2, y - 1):
-        if y % 0 == 0 or y == y - 1:
-            ans = False
-        else:
-            ans = True
-if ans == True:
-    print(str(y) + "這不是一個質數!")
-
-else:
-    print(str(y) + "這是一個質數!")
+a = int(input('請輸入開始的一個數字:'))
+s = int(input('請輸入結束的一個一個數字:'))
+for i in range(a, s + 1):
+    ans = False
+    for j in range(2, int(i / 2 + 1)):
+        if i != 1:
+            if i % j == 0:
+                ans = True
+    if ans == False:
+        print(str(i) + "是質數")
