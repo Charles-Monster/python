@@ -33,13 +33,14 @@ while True:
         break
     elif i > a:
         print("再小一點")
-        c = i
-    elif i < c or i > c:
-        c = i
+        if i > c:
+            continue
+        elif i < c:
+            c = i
         continue
     elif i < a:
         print("再大一點")
-        b = i
-    elif i > b or i < b:
-        b = i
-        continue
+        if i < b:
+            continue
+        elif i > b:
+            b = i
