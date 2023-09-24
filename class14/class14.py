@@ -12,7 +12,8 @@
 
 # print(random.randrange(3))
 # print(random.randrange(0, 10, 2))
-
+#終止值是進行下一次迴圈時，會從終止值的數開始進行抽籤
+#ex:(start.stop.+)中的加=公差
 # print(random.randint(1, 3))
 # print(random.randint(1, 10))
 #import random是隨機給一個數的指令
@@ -21,6 +22,7 @@
 #
 #print(r.randint(1,10))
 #print(r.randrange(1,10))
+#猜數字
 import random
 
 a = random.randint(1, 100)
