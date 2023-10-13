@@ -21,7 +21,7 @@ EX:
 #只要新增4行
 import random
 
-a = random.randint(1, 100)
+a = random.randint(1, 101)
 b = 1
 c = 100
 while True:
