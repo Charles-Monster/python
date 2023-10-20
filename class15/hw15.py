@@ -11,13 +11,13 @@ while True:
         print(juices_list[index])
     ans = input("請輸入編號:")
     if ans == "1":
-        print("您點的商品是蘋果汁")
+        print(ans[0])
     elif ans == "2":
-        print("您點的商品是柳橙汁")
+        print(ans[1])
     elif ans == "3":
-        print("您點的商品是葡萄汁")
+        print(ans[2])
     elif ans == "4":
-        print("系統關閉~~")
+        print(ans[3])
         break
     else:
-        print("沒有此果汁")
+        print("輸入錯誤查無此果汁，請重新輸入")
