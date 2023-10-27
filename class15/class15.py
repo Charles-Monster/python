@@ -28,6 +28,6 @@
 # for index in range(len(L)):
 #     print(L[index])
 #ELEMENT(走訪元素)是依照順序讀取每個元素值
-# L = ['a', 'b', 'c']
-# for element in L:
-#     print(element)
+L = ['a', 'b', 'c']
+for element in L:
+    print(element)
