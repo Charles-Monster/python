@@ -9,7 +9,7 @@
 # 所以如果要把一個清單中的元素換掉的話，就不能在家中括號。
 #正確寫法:
 #?[?] ='?'
-# weather = ['晴天', '多雲', '雨天', '陰天', '晴天', '多雲', '雷陣雨', '晴天']
+# weather = ['晴天',  '雨天', '陰天', '晴天', '多雲', '雷陣雨', '晴天']
 # print(weather)
 
 # while True:
@@ -43,4 +43,7 @@
 # birthday='2023/10/20'
 # birthday=birthday.split('/')
 # birthday='-'.join(birthday)
+# print(birthday)
+# a = ['1', '2', '3']
+# birthday = ''.join(a)
 # print(birthday)
