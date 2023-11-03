@@ -73,13 +73,24 @@ while True:
             print('輸入的位置不正確!')
     elif ans == 7:
         print('您選擇的功能是:7. 顯示升序排序的點餐清單')
-
+        A_list.sort()
+        print('點餐出餐順序以按升序排序!')
     elif ans == 8:
         print('您選擇的功能是:8. 顯示降序排序的點餐清單')
+        A_list.sort(reverse=True)
+        print('點餐出餐順序以按降序排序!')
     elif ans == 9:
         print('您選擇的功能是:9. 反轉點餐清單的順序')
+        A_list.reverse()
+        print('點餐清單出餐順序已反轉!')
     elif ans == 10:
         print('您選擇的功能是:10. 查詢餐點在點餐清單中的位置')
+        order = input('請輸入您想要查詢出餐順序的餐點:')
+        if order in A_list:
+            index = A_list.index(order)
+            print('餐點' + order + '出餐的順序是:' + str(index))
+        else:
+            print('該餐點不在清單中!')
     elif ans == 11:
         print('您選擇的功能是:11. 退出點餐機')
         print('系統關閉---')
