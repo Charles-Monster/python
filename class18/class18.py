@@ -30,14 +30,14 @@
 # for week in food:
 #     print(week)
 #結果為星期一，星期二，星期三
-# food = {'星期一': '蘋果', '星期二': '香蕉', '星期三': '葡萄'}
-# for week in food:
-#     print(food[week])
+food = {'星期一': '蘋果', '星期二': '香蕉', '星期三': '葡萄'}
+for week in food:
+    print(food[week])
 #keys可以列舉字典裡的所有key，返回key的串列
-d = {1: 'a', 2: 'b'}
-keys = d.keys()
-for key in keys:
-    print(key)
+# d = {1: 'a', 2: 'b'}
+# keys = d.keys()
+# for key in keys:
+#     print(key)
 #指令格式:
 #字典.keys
 #執行結果:
