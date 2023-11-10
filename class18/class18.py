@@ -37,7 +37,7 @@ for week in food:
 # d = {1: 'a', 2: 'b'}
 # keys = d.keys()
 # for key in keys:
-#     print(key)
+#     print(key)  
 #指令格式:
 #字典.keys
 #執行結果:
