@@ -27,3 +27,22 @@ en:100
 en:100
 ch:2
 '''
+list={'國語':96,'數學':86,'社會':95,'自然':96,'英文':100}
+while True:
+    print('''1. 新增科目成績
+             2. 刪除科目成績
+             3. 提交所有成績並顯示平均''')
+    ans=str(input('請輸入想要使用功能的號碼編號:'))
+    if ans =='1':
+        ansss=input('請輸入想新增的科目:')
+        score=input('請輸入分數:')
+    print(ansss+':'+score)
+    if ans =='2':
+        anss=input('請輸入想刪除的科目:')
+        list.pop(anss,'刪除科目失敗')
+        print('更新後的字典:',list)
+        print('移出的數值',anss)
+    if ans=='3':
+        for suject ,count in list.items():
+            '國語'+'數學'+'社會'+'自然'+'英文'//5
+            print(list)

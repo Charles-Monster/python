@@ -23,16 +23,17 @@
 #字典中的pop可以移出指定鍵的資料(必須存在)
 #可以移除鍵(值也會消失不見)
 #返回被移出的資料值
-# d={1:'a',2:'b'}
-# v=d.pop
-# print('更新後的字典:',d)
-# print('移出的數值',v)
+d={1:'a',2:'b'}
+v=d.pop
+print('更新後的字典:',d)
+print('移出的數值',v)
 #字典中的pop2:
 #可以嘗試移出不存在的鍵
 #如果鍵不存在，返回預設值
 #如果鍵存在，會變成:
 # {2:'b'}
 # d={1:'a',2:'b'}
+# input('請輸入想刪除的科目:')
 # v=d.pop(0,'刪除資料失敗')
 # print('更新後的字典:',d)
 # print('移出的數值',v)
@@ -62,7 +63,7 @@
 # food_list["熱狗"] = 20
 # food_list["果汁"] = 25
 # print(len(food_list))
-gift_list={'小明':'樂高積木','小花':'畫筆','小強':'足球','小美':'書','小偉':'遙控車'}
-for name, gift in gift_list.items():
-    print(name+'送你一個'+gift)
-print('一共收到'+str(len(gift_list))+'個禮物')
+# gift_list={'小明':'樂高積木','小花':'畫筆','小強':'足球','小美':'書','小偉':'遙控車'}
+# for name, gift in gift_list.items():
+#     print(name+'送你一個'+gift)
+# print('一共收到'+str(len(gift_list))+'個禮物')
