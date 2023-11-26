@@ -7,10 +7,9 @@
 # def hello(name):
 #     print('hello'+str(name))
 # hello('仕奇')
-# def my_min(a,b):
-#     if a<b:
-#         return a
-#     else:
-#         return b
-
-# print(my_min(1,2)) 
+def my_min(a,b):
+     if a<b:
+        return a
+     else:
+        return b
+print(my_min(3,2)) 

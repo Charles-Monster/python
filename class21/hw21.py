@@ -6,3 +6,11 @@
 import random
 def roll_dice(n):
 '''
+import random
+ans=(int(input('請輸入擲骰子的次數:')))
+random.randrange(ans)
+def roll_dice():
+    print(str(random))
+roll_dice()
+
+    
